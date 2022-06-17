@@ -1,0 +1,228 @@
+<!DOCTYPE html><html lang="en"><head>
+    
+    <script src="p5.js"></script>
+    
+    <script src="p5.sound.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <meta charset="utf-8" content="width=device-width, initial-scale=1">
+  </head>
+  
+  <body id="body">
+    <script src="sketch.js"></script>
+    
+    
+    <style>
+      #body {
+        height: 100%;
+        width: 100%;
+      }
+      
+      #header {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        height: 110px;
+        color: black;
+        background-color: white;
+        font-family: "bold";
+        font-weight: 600;
+        font-size: 35px;
+        border-bottom: black ridge 3px;
+        z-index: 3;
+      }
+      
+      #header-name {
+        position: absolute;
+        top: 27%;
+        left: 20%;
+      }
+      
+      #header-home {
+        position: absolute;
+        top: 40px;
+        left: 60%;
+        color: #5E5D5D;
+        font-size: 20px;
+        font-family: monospace;
+      }
+      
+      #header-about {
+        position: absolute;
+        top: 40px;
+        left: 70%;
+        color: #5E5D5D;
+        font-size: 20px;
+        font-family: monospace;
+      }
+      
+      #header-latest-post {
+        position: absolute;
+        top: 40px;
+        left: 80%;
+        color: #5E5D5D;
+        font-size: 20px;
+        font-family: monospace;
+      }
+      
+      #img-logo {
+        position: absolute;
+        width: 100%;
+        height: 90%;
+        top: 18%;
+        border-bottom: black ridge 3px;
+        z-index: 1;
+      }
+      
+      
+      #about {
+       position: absolute;
+        top: 30%;
+        left: 25%;
+        transform: rotate(-15deg);
+        font-size: 30px;
+        color: #104290;
+        text-decoration: underline;
+        z-index: 2;
+      }
+      
+      #about-back {
+        position: absolute;
+        top: 28%;
+        left: 24.5%;
+        width: 9%;
+        height: 10%;
+        transform: rotate(-15deg);
+        border: 5px ridge black;
+        z-index: 1;
+      }
+      
+      #about-pin {
+       position: absolute;
+        width: 3%;
+        height: 8%;
+        top: 24%;
+        left: 26%;
+        transform: rotate(-20deg);
+        z-index: 1;
+      }
+      
+      #latest {
+       position: absolute;
+        top: 60%;
+        left: 70%;
+        transform: rotate(15deg);
+        font-size: 30px;
+        color: #104290;
+        text-decoration: underline;
+        z-index: 2;
+      }
+      
+      #latest-back {
+        position: absolute;
+        top: 57.5%;
+        left: 69.5%;
+        width: 15%;
+        height: 10%;
+        transform: rotate(15deg);
+        border: 5px ridge black;
+        z-index: 1;
+      }
+      
+      #latest-post-pin {
+       position: absolute;
+        width: 3%;
+        height: 8%;
+        top: 53%;
+        left: 78%;
+        transform: rotate(90deg);
+        z-index: 1;
+      }
+      
+      #h2 {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 105%;
+        left: 0%;
+        color: black;
+        background-color: white;
+        z-index: 1;
+      }
+       
+      #about-heading {
+        position: absolute;
+        left: 12%;
+        font-family: arial;
+        text-decoration: double underline;
+        z-index: 1;
+      }
+      
+      #blog-about {
+        position: absolute;
+        top: 40%;
+        left: 2%;
+        text-decoration: italic;
+        font-family: monospace;
+        z-index: 1;
+      }
+      
+      #welcome {
+        position: absolute;
+        top: 2%;
+        right: 0%;
+      }
+      
+      #view-first-post {
+        position: absolute;
+        top: 70%;
+        left: 15%;
+        font-size: 40;
+        font-family: arial;
+        z-index: 2;
+      }
+    </style>
+    
+    
+    <header id="header">
+      <span id="header-name">~ Aarna Kp ~</span>
+      <a id="header-home" href="https://editor.p5js.org/aarna.rs1/full/1NkSa18Qw">
+        Home</a>
+      
+      <a id="header-about" href="">
+        About</a>
+      
+      <a id="header-latest-post" href="">
+        Latest Post</a>
+    </header>
+    
+    <div class="div1">
+    <h1 id="h1">
+    <img id="img-logo" src="ak.jpg">
+      
+     <text id="about"> ABOUT </text>
+      <img id="about-back" src="news-text-back.jpg">
+    <img id="about-pin" src="pin.png">
+      
+  <text id="latest" target="_blank" href="">
+    LATEST POST </text>
+    <img id="latest-back" src="news-text-back.jpg">
+    <img id="latest-post-pin" src="pin.png">
+      
+  </h1>
+      </div>
+    
+      <div class="div2">
+      <h2 id="h2">
+<br><br><br><text id="about-heading"> ABOUT MY BLOG</text><br>
+<text id="blog-about"> My blog tells you about how I was so<br><center> interested in websites and how <br>I started making them.</center></text>
+      <img id="welcome" src="welcome.jpg">
+      <span id="view-first-post"> VIEW FIRST POST </span>
+      </h2>
+    </div>
+      
+      
+  
+</body></html>
